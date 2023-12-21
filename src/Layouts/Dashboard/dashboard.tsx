@@ -8,7 +8,7 @@ const DashBoard: React.FC = () => {
         <nav className="Dashboard">
             <ul>
                 <li>
-                    <h1 className="text-4xl font-bold text-center text-indigo-800">
+                    <h1 className="text-4xl font-bold text-center">
                         Leaps
                     </h1>
                 </li>
@@ -23,12 +23,15 @@ const DashBoard: React.FC = () => {
                     </button>
                 </li>
                 <li>
-                    <h2 className="text-4xl font-bold text-center text-indigo-800">
+                    <h2 className="text-2xl font-bold text-center">
                         Goals setting
                     </h2>
                 </li>
                 <li>
-                    <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded opacity-50">
+                    <button className="inline-flex bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded opacity-50">
+                        <svg className="h-8 w-8 text-blue-700"  fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v3m0 0v3m0-3h3m-3 0H9m12 0a9 9 0 11-18 0 9 9 0 0118 0z"/>
+                        </svg>
                         Add tracker
                     </button>
                 </li>
