@@ -1,0 +1,5 @@
+.HomePage {
+  text-align: center;
+  background-color: #44b1b7;
+  flex-grow: 1; /* Takes the remaining space */
+}

@@ -1,0 +1,9 @@
+.Dashboard {
+  text-align: center;
+  background-color: #b5ffac;
+  display: flex;
+  width: 200px;
+  /* width: 100%; */
+  min-height: 100vh !important;
+  height: auto;
+}

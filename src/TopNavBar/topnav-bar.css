@@ -1,0 +1,5 @@
+.TopNavBar {
+  text-align: center;
+  background-color: #7a44b7;
+  flex-grow: 1; /* Takes the remaining space */
+}
