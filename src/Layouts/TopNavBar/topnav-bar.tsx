@@ -1,5 +1,5 @@
 import react from 'react';
-import './topnav-bar.css';
+import '../../css/topnav-bar.css';
 
 const TopNavBar: React.FC = () => {
 

@@ -1,5 +1,6 @@
 import react from 'react';
-import './home-page.css';
+// import '../../css/home-page.css';
+import '../css/home-page.css';
 
 const HomePage: React.FC = () => {
 
