@@ -13,9 +13,6 @@ function App() {
     <Router>
       <div className="App">
         <DashBoard />
-        <h1 className="text-2xl font-bold underline text-red-600">
-      Simple React Typescript Tailwind Sample
-    </h1>
         <Routes>
           <Route path="/" element={<HomePage />} />
           <Route path="/test-page" element={<TestPage />} />

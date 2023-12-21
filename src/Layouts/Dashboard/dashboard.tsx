@@ -1,8 +1,18 @@
 import react from 'react';
 import '../../css/dashboard.css';
+import { Link } from 'react-router-dom';
+
 
 
 const DashBoard: React.FC = () => {
+
+    function ButtonLink({ to, children }: { to: string; children: React.ReactNode }) {
+        return <Link to={to}><button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded opacity-50">{children}</button></Link>;
+      }
+
+    const handleClick = () => {
+    alert('Button Clicked!');
+    };
 
     return (
         <nav className="Dashboard">
@@ -13,9 +23,17 @@ const DashBoard: React.FC = () => {
                     </h1>
                 </li>
                 <li>
-                    <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded opacity-50">
-                        Daily Goals
+                    <button onClick={handleClick} className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
+                    CLICK ME
                     </button>
+
+                    <ButtonLink to="/test-page">Go to test page!</ButtonLink>
+                    <ButtonLink to="/">Go to home page!</ButtonLink>
+                    <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded opacity-50">
+                    Daily Goals
+                    </button>
+
+
                 </li>
                 <li>
                     <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">

@@ -9,15 +9,18 @@ const HomePage: React.FC = () => {
     return <Link to={to}><button>{children}</button></Link>;
   }
 
-  const handleClick = () => {
-    alert('Button Clicked!');
-  };
-
     return (
         <div className='HomePage'>
-          <h1>HomePage</h1>
-          <button onClick={handleClick}>CLICK ME</button>
-          <ButtonLink to="/test-page">Go to test page!</ButtonLink>
+          <h1 className="text-2xl font-bold underline text-black-600">
+            HOME PAGE
+          </h1>
+          <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">    
+            <ButtonLink to="/">Go to home page!</ButtonLink>
+          </button>
+
+          <button className="bg-red-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
+            <ButtonLink to="/test-page">Go to test page!</ButtonLink>
+          </button>
         </div>
     );
 }

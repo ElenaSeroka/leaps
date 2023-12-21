@@ -12,8 +12,12 @@ const TestPage: React.FC = () => {
 
     return (
         <div className='TestPage'>
-          <h1>TEST PAGE</h1>
-          <ButtonLink to="/">Go home!</ButtonLink>
+          <h1 className="text-2xl font-bold underline text-black-600">
+            TEST PAGE
+          </h1>
+          <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">    
+            <ButtonLink to="/">Go to home page!</ButtonLink>
+          </button>
         </div>
     );
 }

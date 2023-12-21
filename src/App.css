@@ -21,3 +21,9 @@
   grid-row: 2; /* Position HomePage in the second row */
   /* Additional styling for your HomePage */
 }
+
+.TestPage {
+  grid-column: 2; /* Position HomePage in the second column */
+  grid-row: 2; /* Position HomePage in the second row */
+  /* Additional styling for your HomePage */
+}
