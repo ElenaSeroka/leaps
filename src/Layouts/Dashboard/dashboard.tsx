@@ -14,6 +14,11 @@ const DashBoard: React.FC = () => {
                 <li>Add tracker</li>
                 <li>Settings</li>
                 <li>Log out</li>
+                <li>
+                    <button onClick={() => { /* Handle button click here */ }}>
+                        Your Button Text
+                    </button>
+                </li>
             </ul>
         </nav>
     );
