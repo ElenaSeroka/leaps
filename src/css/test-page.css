@@ -1,0 +1,5 @@
+.TestPage {
+  text-align: center;
+  background-color: #b74444;
+  flex-grow: 1; /* Takes the remaining space */
+}
